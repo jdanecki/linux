@@ -159,6 +159,8 @@ static void __init dmi_save_ident(const struct dmi_header *dm, int slot,
 	if (p == NULL)
 		return;
 
+	if (slot == DMI_BOARD_VENDOR) printk("DMI_BOARD_VENDOR: %s\n", p);
+	if (slot == DMI_BOARD_NAME) printk("DMI_BOARD_NAME: %s\n", p);
 	dmi_ident[slot] = p;
 }
 
@@ -642,7 +644,6 @@ int dmi_check_system(const struct dmi_system_id *list)
 			if (d->callback && d->callback(d))
 				break;
 		}
-
 	return count;
 }
 EXPORT_SYMBOL(dmi_check_system);
