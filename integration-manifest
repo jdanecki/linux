@@ -1,0 +1,16 @@
+origin/drm-intel-next-queued 889dc7e960acde076491806d27e068b391c4a47a
+	drm/i915: Use EIO instead of EAGAIN for sink CRC error.
+origin/drm-intel-fixes d72985765e986f45a28f87d75f3f0ece489b04cc
+	drm/i915: Add limited color range readout for HDMI/DP ports on g4x/vlv/chv
+drm-upstream/drm-next 40d201af0b9e6196a210b97d3b2493b1156564f6
+	Merge tag 'drm-intel-next-2014-09-05' of git://anongit.freedesktop.org/drm-intel into drm-next
+drm-upstream/drm-fixes 83502a5d34386f7c6973bc70e1c423f55f5a2e3a
+	drm/ast: AST2000 cannot be detected correctly
+origin/topic/core-stuff 0ff64ef83db7dad292cdb170f7532fcad4bdb050
+	drm: Improve debug output for drm_wait_one_vblank
+origin/topic/vblank-rework 336879b1da97fffc097f77c6d6f818660f2826f0
+	Merge remote-tracking branch 'airlied/drm-next' into topic/vblank-rework
+origin/topic/drm-header-rework 6865b20ad354548a045c74a388eb37afe1ad5174
+	drm: Move DRM_MAGIC_HASH_ORDER into drm_drv.c
+sound-upstream/for-next 941a74ca9e666595910751f4187797d5e1424565
+	ALSA: Update document about PCM nonatomic ops
