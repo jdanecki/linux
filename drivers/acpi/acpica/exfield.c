@@ -51,7 +51,7 @@
 ACPI_MODULE_NAME("exfield")
 
 /* Local prototypes */
-static u32
+u32
 acpi_ex_get_serial_access_length(u32 accessor_type, u32 access_length);
 
 /*******************************************************************************
@@ -69,7 +69,7 @@ acpi_ex_get_serial_access_length(u32 accessor_type, u32 access_length);
  *
  ******************************************************************************/
 
-static u32
+u32
 acpi_ex_get_serial_access_length(u32 accessor_type, u32 access_length)
 {
 	u32 length;
@@ -109,6 +109,7 @@ acpi_ex_get_serial_access_length(u32 accessor_type, u32 access_length)
 
 	return (length);
 }
+ACPI_EXPORT_SYMBOL(acpi_ex_get_serial_access_length);
 
 /*******************************************************************************
  *

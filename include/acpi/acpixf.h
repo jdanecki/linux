@@ -536,6 +536,9 @@ ACPI_EXTERNAL_RETURN_STATUS(acpi_status
  * Handler interfaces
  */
 ACPI_EXTERNAL_RETURN_STATUS(acpi_status
+		acpi_ex_get_serial_access_length
+		(u32 accessor_type, u32 access_length))
+ACPI_EXTERNAL_RETURN_STATUS(acpi_status
 			    acpi_install_initialization_handler
 			    (acpi_init_handler handler, u32 function))
 ACPI_HW_DEPENDENT_RETURN_STATUS(acpi_status
